@@ -1,3 +1,3 @@
--- This script creste database in mysql hbtn_0c_0 when not exist
+-- This script create database in mysql hbtn_0c_0 if not exist
 
-CREATE DATABASE hbtn_0c_0;
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
