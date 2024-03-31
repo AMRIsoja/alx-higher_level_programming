@@ -1,3 +1,3 @@
 #!/bin/bash
 # display options/methods server will accept
-curl -sX OPTIONS -I "$1"
+curl -X OPTIONS -I "$1"
